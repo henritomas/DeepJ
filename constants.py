@@ -1,6 +1,7 @@
 import os
 
 # Define the musical styles
+#To be changed to angry happy sad later
 genre = [
     'baroque',
     'classical',
