@@ -51,6 +51,7 @@ def load_all(styles, batch_size, time_steps):
     styles = [y for x in styles for y in x]
 
     for style_id, style in enumerate(styles):
+        print(style)
         style_hot = one_hot(style_id, NUM_STYLES)
         # Parallel process all files into a list of music sequences
         seqs = Parallel(n_jobs=multiprocessing.cpu_count(), backend='threading')(delayed(load_midi)(f) for f in get_all_files([style]))
