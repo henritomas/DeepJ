@@ -11,13 +11,13 @@ genre = [
 
 styles = [
     [
-        'data/angry/Visceral',
+        'data/angry/Tense',
     ],
     [
         'data/happy/Cheerful',
     ],
     [
-        'data/sad/Wistful',
+        'data/sad/Sad',
     ]
 ]
 
