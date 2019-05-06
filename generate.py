@@ -14,7 +14,7 @@ class MusicGeneration:
     """
     Represents a music generation
     """
-    def __init__(self, style, default_temp=1.2):
+    def __init__(self, style, default_temp=1):
         self.notes_memory = deque([np.zeros((NUM_NOTES, NOTE_UNITS)) for _ in range(SEQ_LEN)], maxlen=SEQ_LEN)
         self.beat_memory = deque([np.zeros(NOTES_PER_BAR) for _ in range(SEQ_LEN)], maxlen=SEQ_LEN)
         self.style_memory = deque([style for _ in range(SEQ_LEN)], maxlen=SEQ_LEN)
@@ -65,7 +65,7 @@ class MusicGeneration:
         if np.count_nonzero(self.next_note) == 0:
             self.silent_time += 1
             if self.silent_time >= NOTES_PER_BAR:
-                self.temperature += 0.2
+                self.temperature += 0.1
         else:
             self.silent_time = 0
             self.temperature = self.default_temp
