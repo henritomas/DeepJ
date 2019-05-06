@@ -52,7 +52,7 @@ class MusicGeneration:
         if np.random.random() <= prob[0]:
             self.next_note[n, 0] = 1
             # Apply volume
-            self.next_note[n, 2] = vol
+            self.next_note[n, 2] = vol*2
             # Flip articulation
             if np.random.random() <= prob[1]:
                 self.next_note[n, 1] = 1
