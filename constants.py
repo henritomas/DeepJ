@@ -4,21 +4,17 @@ import os
 #To be changed to angry happy sad later
 #nice
 genre = [
-    'angry',
-    'happy',
-    'sad'
+    'high-valence',
+    'low-valence',
 ]
 
 styles = [
     [
-        'data/angry/Tense',
+        'data/high-valence/happy-calm',
     ],
     [
-        'data/happy/Cheerful',
+        'data/low-valence/sad-angry',
     ],
-    [
-        'data/sad/Sad',
-    ]
 ]
 
 NUM_STYLES = sum(len(s) for s in styles)
