@@ -50,8 +50,7 @@ class MusicGeneration:
         prob = apply_temperature(prob[n, :-1], self.temperature)
 
         # Flip notes randomly
-        #if np.random.random() <= prob[0]:
-        if True:
+        if np.random.random() <= prob[0]:
             self.next_note[n, 0] = 1
             # Apply volume
             self.next_note[n, 2] = vol
