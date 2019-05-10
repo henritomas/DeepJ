@@ -14,7 +14,7 @@ class MusicGeneration:
     """
     Represents a music generation
     """
-    def __init__(self, style, default_temp=0.8):
+    def __init__(self, style, default_temp=1.0):
         self.notes_memory = deque([np.zeros((NUM_NOTES, NOTE_UNITS)) for _ in range(SEQ_LEN)], maxlen=SEQ_LEN)
         self.beat_memory = deque([np.zeros(NOTES_PER_BAR) for _ in range(SEQ_LEN)], maxlen=SEQ_LEN)
         self.style_memory = deque([style for _ in range(SEQ_LEN)], maxlen=SEQ_LEN)
