@@ -1,0 +1,24 @@
+References:
+https://www.researchgate.net/publication/328728367_On_the_evaluation_of_generative_models_in_music?fbclid=IwAR3CbxPgRKHabiO551susHvkBUTP9pOyvYoZJfPbvJitDL9S6ijkuT1SmRM
+https://salu133445.github.io/bmusegan/results?fbclid=IwAR2eFLDL-CXqE6rtAFMGCIPdH5-vVw6mJEPPbLwYNk8QsNFDhbSiJVBgEtE
+
+1. Qualified Note Rate
+	- ratio of qualified notes (notes no shorter than three time steps) over
+    the total number of notes 
+    - implies fragmentation if low
+
+2. Polyphonicity 
+    - defined as the ratio of the number of time steps where more than 
+    two pitches are played to the total number of time steps.
+
+3. Note Count/Note Rate
+    -notes used given same amount of time 
+
+4. Mean Note Interval 
+    -average time between notes
+
+5. Pitch Range 
+    -highest pitch used - lowest pitch used 
+
+6. Average Pitch Interval
+    -average pitch difference between notes in sequence 
