@@ -4,18 +4,24 @@ import os
 #To be changed to angry happy sad later
 #nice
 genre = [
-    'high-valence',
-    'low-valence',
+    'calm',
+    'happy',
+    'angry',
+    'sad',
 ]
 
 styles = [
     [
-        'data/high-valence/calm',
-        'data/high-valence/happy',
+        'data/calm',
     ],
     [
-        'data/low-valence/angry',
-        'data/low-valence/sad',
+        'data/happy',
+    ],
+    [
+        'data/angry',
+    ],
+    [
+        'data/sad',
     ],
 ]
 
