@@ -125,7 +125,7 @@ def note_axis(dropout):
         return Concatenate()([note_dense(x), volume_dense(x)])
     return f
 
-def build_models(time_steps=SEQ_LEN, input_dropout=0.2, dropout=0.5):
+def build_models(time_steps=SEQ_LEN, input_dropout=0.2, dropout=0.3):
     notes_in = Input((time_steps, NUM_NOTES, NOTE_UNITS))
     beat_in = Input((time_steps, NOTES_PER_BAR))
     style_in = Input((time_steps, NUM_STYLES))
