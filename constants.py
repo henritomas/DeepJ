@@ -10,10 +10,12 @@ genre = [
 
 styles = [
     [
-        'data/high-valence/happy-calm',
+        'data/high-valence/calm',
+        'data/high-valence/happy',
     ],
     [
-        'data/low-valence/sad-angry',
+        'data/low-valence/angry',
+        'data/low-valence/sad',
     ],
 ]
 
