@@ -66,7 +66,7 @@ class MusicGeneration:
         if np.count_nonzero(self.next_note) == 0:
             self.silent_time += 1
             if self.silent_time >= NOTES_PER_BAR:
-            self.temperature += 0.1
+                self.temperature += 0.1
         else:
             self.silent_time = 0
             self.temperature = self.default_temp
