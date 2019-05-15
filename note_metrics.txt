@@ -21,4 +21,5 @@ https://salu133445.github.io/bmusegan/results?fbclid=IwAR2eFLDL-CXqE6rtAFMGCIPdH
     -highest pitch used - lowest pitch used 
 
 6. Average Pitch Interval
-    -average pitch difference between notes in sequence 
+    -average pitch difference between notes in sequence
+    
