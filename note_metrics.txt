@@ -14,12 +14,18 @@ https://salu133445.github.io/bmusegan/results?fbclid=IwAR2eFLDL-CXqE6rtAFMGCIPdH
 3. Note Count/Note Rate
     -notes used given same amount of time 
 
-4. Mean Note Interval 
+4a. Mean Note Interval 
     -average time between notes
+
+    Note interval Standard Deviation/Variance
 
 5. Pitch Range 
     -highest pitch used - lowest pitch used 
 
-6. Average Pitch Interval
+    Pitch Histogram
+    -how many times each possible pitch was used
+
+    Average Pitch Interval
     -average pitch difference between notes in sequence
     
+6.
