@@ -27,5 +27,11 @@ https://salu133445.github.io/bmusegan/results?fbclid=IwAR2eFLDL-CXqE6rtAFMGCIPdH
 
     Average Pitch Interval
     -average pitch difference between notes in sequence
-    
-6.
+
+Lets do:
+
+X Similarity of Correlation Coefficients
+X Note Count, Note Rate
+- Average time between notes
+X Pitch Histogram
+X Mean Note Interval (Polyphonicity)

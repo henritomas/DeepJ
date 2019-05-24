@@ -6,6 +6,7 @@ import os
 genre = [
     'calm',
     'happy',
+    'angry',
     'sad',
 ]
 
@@ -15,6 +16,9 @@ styles = [
     ],
     [
         'data/happy',
+    ],
+    [
+        'data/angry',
     ],
     [
         'data/sad',
