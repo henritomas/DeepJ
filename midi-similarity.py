@@ -24,11 +24,6 @@ import pprint
 import gensim, logging
 
 def main():
-    #print_parts_contour(my_midi)
-    #red_midi = harmonic_reduction(base_midi)
-    #print(red_midi[:10])
-
-    #save_w2v_train()
     sentences = load_w2v_train()
     model = gensim.models.Word2Vec(sentences, min_count=2, window=4, size=50, iter=100)
 
@@ -36,18 +31,12 @@ def main():
     print(model.wv.vocab.keys())
     print("Number of chords considered by model: {0}".format(len(model.wv.vocab)))
 
-    midA = "./word2vec/data/midi2017_(1).mid"
-    midB = "./word2vec/data/midi2017_(100).mid"
-    mid0 = "/home/henri/Downloads/output_0.mid"
-    mid1 = "/home/henri/Downloads/output_1.mid"
-    mid2 = "/home/henri/Downloads/output_2.mid"
-    mid3 = "/home/henri/Downloads/midireee/output_3(1).mid"
-    res = calculate_similarity_aux(model, mid0, [mid1, mid2, mid3], threshold = -1)
+    mid0 = "good-samples/output_0.mid"
+    mid1 = "good-samples/output_1.mid"
+    mid2 = "good-samples/output_2.mid"
+    mid3 = "good-samples/output_3.mid"
+    res = calculate_similarity_aux(model, mid0, [mid0, mid1, mid2, mid3], threshold = -1)
     print(res)
-    #get_related_chords(model, 'I')
-    #get_related_chords(model, 'iv')
-    #get_related_chords(model, 'V')
-    #get_chord_similarity(model, 'iv', 'I')
 
 def vectorize_harmony(model, harmonic_reduction):
     # Gets the model vector values for each chord from the reduction.

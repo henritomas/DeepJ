@@ -234,21 +234,17 @@ if __name__ == "__main__":
     
     midA = "./data/happy/bach_846.mid"
     midB = "./data/sad/bor_ps2.mid"
-    mid0 = "/home/henri/Downloads/output_0.mid"
-    mid1 = "/home/henri/Downloads/output_1.mid"
-    mid2 = "/home/henri/Downloads/output_2.mid"
-    mid3 = "/home/henri/Downloads/output_3.mid"
-    #base_midi = open_midi(midC, True)
-    #print_contour(midC)
+    mid0 = "good-samples/output_0.mid"
+    mid1 = "good-samples/Downloads/output_1.mid"
+    mid2 = "good-samples/Downloads/output_2.mid"
+    mid3 = "good-samples/Downloads/output_3.mid"
+
+    base_midi = open_midi(mid0, True)
+    print_contour(mid0)
     #print(base_midi.flat.elements)
-    #base_midi.plot('histogram', 'pitchClass', 'count')
-    #base_midi.plot('scatter', 'offset', 'pitchClass')
-    #base_midi.plot('pianoroll')
-    #base_midi.plot('histogram', 'pitch')
-    #print(rmse_coco(midA, midB))
-    #print(mae_coco(midA, midB))
+    base_midi.plot('histogram', 'pitchClass', 'count')
+    base_midi.plot('scatter', 'offset', 'pitchClass')
+    base_midi.plot('histogram', 'pitch')
     #print(note_rate(midB, True))
-    #print(note_rate(midC, False))
-    #print(note_usage(midC))
-    #print(rmse_pdd(mid0, mid1))
-    print_contour(midA)
+    #print(note_rate(mid0, False))
+    #print(note_usage(mid0))
