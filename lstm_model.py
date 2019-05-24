@@ -82,7 +82,7 @@ def time_axis(dropout):
             style_proj = Permute((2, 1, 3))(style_proj)
             x = Add()([x, style_proj])
 
-            x = TimeDistributed(GRU(TIME_AXIS_UNITS, return_sequences=True))(x)
+            x = TimeDistributed(LSTM(TIME_AXIS_UNITS, return_sequences=True))(x)
             x = Dropout(dropout)(x)
 
         # [batch, time, notes, features]
@@ -118,7 +118,7 @@ def note_axis(dropout):
             x = Add()([x, style_proj])
 
             if l not in lstm_layer_cache:
-                lstm_layer_cache[l] = GRU(NOTE_AXIS_UNITS, return_sequences=True)
+                lstm_layer_cache[l] = LSTM(NOTE_AXIS_UNITS, return_sequences=True)
 
             x = TimeDistributed(lstm_layer_cache[l])(x)
             x = Dropout(dropout)(x)
