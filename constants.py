@@ -18,9 +18,6 @@ styles = [
         'data/happy',
     ],
     [
-        'data/angry',
-    ],
-    [
         'data/sad',
     ],
 ]
