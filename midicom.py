@@ -13,7 +13,7 @@ import matplotlib.lines as mlines
 from math import sqrt
 
 import midi as pmidi
-import midi.timeresolver as tres
+#import midi.timeresolver as tres
 
 from constants import *
 
