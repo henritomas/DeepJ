@@ -6,7 +6,6 @@ import os
 genre = [
     'calm',
     'happy',
-    'angry',
     'sad',
 ]
 
