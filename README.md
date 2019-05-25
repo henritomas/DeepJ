@@ -4,13 +4,14 @@
 Listen to our best outputs at 
 ### [Sound Cloud](https://soundcloud.com/gabriel-perez-90/sets/deep-learning-based-on-music)
 
+## Code
 A COE 197-Z / EE 298-Z Final Project. 
 * [Github link](https://github.com/henritomas/DeepJ)
 * Documentation: [ipynb - Jupyter notebook](https://github.com/henritomas/DeepJ/blob/icsc/documentation.ipynb)
 * View our [Google Slides](https://docs.google.com/presentation/d/19dG5vqjuzJXPAvmT2QsxvO6G5LpGiHpg1ghIl1e3tUI/edit?usp=sharing)
 * Try generating some samples at [Colab](https://colab.research.google.com/drive/1kTtIm-1eqqUgfHzycftgRqQLA-vsYOKo)
 
-Main References ad Code bases:
+## References
 * [Calclavia - DeepJ](https://github.com/calclavia/DeepJ)
 * [MIDI Music Data Extraction with Music21](https://www.kaggle.com/wfaria/midi-music-data-extraction-using-music21)
 
