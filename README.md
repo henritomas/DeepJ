@@ -1,7 +1,6 @@
 # DeepJ-Mood: A variant of the DeepJ model for mood-specific music generation
-# Piano2Vec : A word2vec model trained on the harmonic reduction of 140 piano midi files from MAESTRO Dataset
 
-##Sample Outputs
+## Sample Outputs
 Listen to our best outputs at [sound cloud](https://soundcloud.com/gabriel-perez-90/sets/deep-learning-based-on-music)
 
 A COE 197-Z / EE 298-Z Final Project. 
@@ -19,11 +18,13 @@ To generate music, run the following command:
 ```
 python generate.py
 ```
-To use the word2vec model, run with word2vec folder in the same directory
-```
-python midi-similarity.py
-```
 Use the help command to see CLI arguments:
 ```
 python generate.py --help
+```
+
+# Piano2Vec : A word2vec model trained on the harmonic reduction of 140 piano midi files from MAESTRO Dataset
+To use the word2vec model, run with word2vec folder in the same directory
+```
+python midi-similarity.py
 ```
