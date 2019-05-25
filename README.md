@@ -4,8 +4,8 @@
 Listen to our best outputs at [sound cloud](https://soundcloud.com/gabriel-perez-90/sets/deep-learning-based-on-music)
 
 A COE 197-Z / EE 298-Z Final Project. 
-* [github link](https://github.com/henritomas/DeepJ)
-* [ipynb link](https://github.com/henritomas/DeepJ/blob/icsc/documentation.ipynb)
+* [Github link](https://github.com/henritomas/DeepJ)
+* Documentation: [ipynb link](https://github.com/henritomas/DeepJ/blob/icsc/documentation.ipynb)
 * Try generating some samples at [Colab](https://colab.research.google.com/drive/1kTtIm-1eqqUgfHzycftgRqQLA-vsYOKo)
 
 ## Usage
