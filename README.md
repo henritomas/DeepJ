@@ -10,8 +10,8 @@ A COE 197-Z / EE 298-Z Final Project.
 * Try generating some samples at [Colab](https://colab.research.google.com/drive/1kTtIm-1eqqUgfHzycftgRqQLA-vsYOKo)
 
 Main References ad Code bases:
-[Calclavia - DeepJ](https://github.com/calclavia/DeepJ)
-[MIDI Music Data Extraction with Music21](https://www.kaggle.com/wfaria/midi-music-data-extraction-using-music21)
+* [Calclavia - DeepJ](https://github.com/calclavia/DeepJ)
+* [MIDI Music Data Extraction with Music21](https://www.kaggle.com/wfaria/midi-music-data-extraction-using-music21)
 
 ## Usage
 To train a new model, run the following command:
