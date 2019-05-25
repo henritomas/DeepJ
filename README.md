@@ -1,7 +1,8 @@
 # DeepJ-Mood: A variant of the DeepJ model for mood-specific music generation
 
 ## Sample Outputs
-Listen to our best outputs at [sound cloud](https://soundcloud.com/gabriel-perez-90/sets/deep-learning-based-on-music)
+Listen to our best outputs at 
+### [Sound Cloud](https://soundcloud.com/gabriel-perez-90/sets/deep-learning-based-on-music)
 
 A COE 197-Z / EE 298-Z Final Project. 
 * [Github link](https://github.com/henritomas/DeepJ)
